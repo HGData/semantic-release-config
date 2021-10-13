@@ -28,5 +28,5 @@ jobs:
         if: success()
         env:
           CI: true
-          GITHUB_TOKEN: ${{ secrets.ACTIONS_PACKAGE_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
         run: npx semantic-release
