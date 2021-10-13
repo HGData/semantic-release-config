@@ -8,17 +8,24 @@ on:
 
 jobs:
   publish:
-    name: Publish to Github & NPM or Github Package Registry
+    name: Publish to Github Package Registry
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
+      - name: Checkout repo
+        uses: actions/checkout@v1
+
+      - name: Setup node
+        uses: actions/setup-node@v1
         with:
           node-version: 14
-      - env:
+
+      - name: Run npm ci
+        env:
           CI: true
         run: npm ci
-      - if: success()
+
+      - name: Publish package
+        if: success()
         env:
           CI: true
           GITHUB_TOKEN: ${{ secrets.ACTIONS_PACKAGE_TOKEN }}
