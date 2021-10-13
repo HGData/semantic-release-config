@@ -8,7 +8,7 @@ on:
 
 jobs:
   publish:
-    name: Publish to Github Package Registry
+    name: Publish to registry
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
