@@ -1,4 +1,3 @@
-/* eslint-disable no-param-reassign */
 const commitAnalyzerOptions = {
   preset: 'angular',
   releaseRules: [
@@ -40,14 +39,12 @@ const releaseNotesGeneratorOptions = {
         commit.shortHash = commit.hash.substring(0, 7);
       }
 
-      // eslint-disable-next-line consistent-return
       return commit;
     },
   },
 };
 
 const execCommands = {
-  // eslint-disable-next-line no-template-curly-in-string
   verifyReleaseCmd: 'echo ${nextRelease.version} > version',
 };
 
