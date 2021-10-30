@@ -62,4 +62,5 @@ module.exports = {
     // run events commands
     ['@semantic-release/exec', execCommands],
   ],
+  branches: ["main", "develop"]
 };
