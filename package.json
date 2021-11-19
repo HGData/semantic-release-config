@@ -5,13 +5,13 @@
   "dependencies": {
     "@semantic-release/changelog": "^6.0.0",
     "@semantic-release/commit-analyzer": "^9.0.1",
+    "@semantic-release/exec": "^6.0.1",
     "@semantic-release/git": "^10.0.0",
     "@semantic-release/github": "^8.0.1",
-    "@semantic-release/exec": "^6.0.1",
+    "@semantic-release/npm": "^8.0.3",
     "@semantic-release/release-notes-generator": "^10.0.2",
-    "semantic-release": "^18.0.0"
+    "semantic-release": ">=16.0.0"
   },
-  "devDependencies": {},
   "files": [
     ".releaserc",
     "release.config.js"
@@ -26,5 +26,10 @@
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
+  },
+  "release": {
+    "plugins": [
+      "@semantic-release/npm"
+    ]
   }
 }
