@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/hgdata/semantic-release-config/compare/v1.0.4...v1.0.5) (2021-11-19)
+
+
+### Bug Fixes
+
+* add publish step ([23cd5c8](https://github.com/hgdata/semantic-release-config/commit/23cd5c8ea4da54249519891004410b9a0f6df122))
+
 ## [1.0.4](https://github.com/hgdata/semantic-release-config/compare/v1.0.3...v1.0.4) (2021-11-19)
 
 
