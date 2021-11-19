@@ -30,6 +30,7 @@
   "release": {
     "plugins": [
       "@semantic-release/npm"
-    ]
+    ],
+    "branches": ["main", "develop"]
   }
 }
