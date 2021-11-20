@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/hgdata/semantic-release-config/compare/v1.0.6...v1.0.7) (2021-11-19)
+
+
+### Bug Fixes
+
+* add plugins ([5fe40ae](https://github.com/hgdata/semantic-release-config/commit/5fe40ae4be4e33a49e45dccf7097fc98d451b169))
+
 ## [1.0.5](https://github.com/hgdata/semantic-release-config/compare/v1.0.4...v1.0.5) (2021-11-19)
 
 
