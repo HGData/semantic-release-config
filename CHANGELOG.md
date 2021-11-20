@@ -1,3 +1,10 @@
+## [1.0.8](https://github.com/hgdata/semantic-release-config/compare/v1.0.7...v1.0.8) (2021-11-20)
+
+
+### Bug Fixes
+
+* final package.json ([99e73cf](https://github.com/hgdata/semantic-release-config/commit/99e73cf5e1070b022157695b39897ab2b1ef63d6))
+
 ## [1.0.7](https://github.com/hgdata/semantic-release-config/compare/v1.0.6...v1.0.7) (2021-11-19)
 
 
