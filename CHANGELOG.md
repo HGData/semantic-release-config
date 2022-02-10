@@ -1,3 +1,11 @@
+## [1.0.10](https://github.com/hgdata/semantic-release-config/compare/v1.0.9...v1.0.10) (2022-02-10)
+
+
+### Bug Fixes
+
+* add `build(deps)` rule, remove version output ([76ec97a](https://github.com/hgdata/semantic-release-config/commit/76ec97a4fa2f896795b57d34c7adbbb340159ac1))
+* revert to `deps` ([daf018c](https://github.com/hgdata/semantic-release-config/commit/daf018c00a652876a7dacfd1785a08801edf1a94))
+
 ## [1.0.9](https://github.com/hgdata/semantic-release-config/compare/v1.0.8...v1.0.9) (2022-01-24)
 
 
