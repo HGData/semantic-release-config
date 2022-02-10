@@ -1,3 +1,11 @@
+## [1.0.11](https://github.com/hgdata/semantic-release-config/compare/v1.0.10...v1.0.11) (2022-02-10)
+
+
+### Bug Fixes
+
+* change deps prefix and rule ([1a0b738](https://github.com/hgdata/semantic-release-config/commit/1a0b7387107a38d50ceac3aff02bb60a77ace0d1))
+* simplify to scope only ([6bed5bf](https://github.com/hgdata/semantic-release-config/commit/6bed5bfa2c74fcf005976b596091c71adb88fb98))
+
 ## [1.0.10](https://github.com/hgdata/semantic-release-config/compare/v1.0.9...v1.0.10) (2022-02-10)
 
 
