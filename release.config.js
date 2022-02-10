@@ -4,7 +4,7 @@ const commitAnalyzerOptions = {
     { type: 'breaking', release: 'major' },
     { type: 'refactor', release: 'patch' },
     { type: 'config', release: 'patch' },
-    { scope: 'deps', release: false },
+    { type: 'chore', scope: 'deps', release: false },
     { scope: 'chore', release: false },
     { scope: 'no-release', release: false },
     { scope: 'test', release: false },
@@ -31,7 +31,7 @@ const releaseNotesGeneratorOptions = {
         commit.type = 'Config';
       } else if (commit.type === 'test') {
         commit.type = 'Tests';
-      } else if (commit.type === 'deps') {
+      } else if (commit.type === 'chore' && commit.scope === 'deps') {
         commit.type = 'Dependencies';
       } else if (commit.type === 'docs') {
         commit.type = 'Documentation';
