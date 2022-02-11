@@ -30,8 +30,6 @@ const releaseNotesGeneratorOptions = {
         commit.type = 'Config';
       } else if (commit.type === 'test') {
         commit.type = 'Tests';
-      } else if (commit.scope === 'deps') {
-        commit.type = 'Dependencies';
       } else if (commit.type === 'docs') {
         commit.type = 'Documentation';
       } else if (commit.type === 'no-release') {
