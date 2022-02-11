@@ -1,3 +1,10 @@
+## [1.0.12](https://github.com/hgdata/semantic-release-config/compare/v1.0.11...v1.0.12) (2022-02-11)
+
+
+### Bug Fixes
+
+* remove deps section ([11418c6](https://github.com/hgdata/semantic-release-config/commit/11418c628eef2c4fdd50bace30466a73dd89e0d2))
+
 ## [1.0.11](https://github.com/hgdata/semantic-release-config/compare/v1.0.10...v1.0.11) (2022-02-10)
 
 
