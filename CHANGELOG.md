@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/hgdata/semantic-release-config/compare/v1.0.12...v1.1.0) (2022-06-09)
+
+
+### Features
+
+* **comitão:** Adding big PR support ([629462d](https://github.com/hgdata/semantic-release-config/commit/629462df24016b0cfe64bb92255164b9364d25a5))
+
 ## [1.0.12](https://github.com/hgdata/semantic-release-config/compare/v1.0.11...v1.0.12) (2022-02-11)
 
 
