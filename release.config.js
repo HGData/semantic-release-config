@@ -2,6 +2,7 @@ const commitAnalyzerOptions = {
   preset: 'angular',
   releaseRules: [
     { type: 'breaking', release: 'major' },
+    { type: 'comitão', release: 'major' },
     { type: 'refactor', release: 'patch' },
     { type: 'config', release: 'patch' },
     { scope: 'chore', release: false },
@@ -17,6 +18,8 @@ const releaseNotesGeneratorOptions = {
   writerOpts: {
     transform: (commit) => {
       if (commit.type === 'breaking') {
+        commit.type = 'Breaking';
+      } else if (commit.type === 'comitão') {
         commit.type = 'Breaking';
       } else if (commit.type === 'feat') {
         commit.type = 'Features';
