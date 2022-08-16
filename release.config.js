@@ -17,25 +17,25 @@ const commitAnalyzerOptions = {
 const releaseNotesGeneratorOptions = {
   writerOpts: {
     transform: (commit) => {
-      if (commit.type === 'breaking') {
+      if (equalsIgnoreCase(commit.type, 'breaking')) {
         commit.type = 'Breaking';
-      } else if (commit.type === 'comitão') {
+      } else if (equalsIgnoreCase(commit.type, 'comitão')) {
         commit.type = 'Breaking';
-      } else if (commit.type === 'feat') {
+      } else if (equalsIgnoreCase(commit.type, 'feat')) {
         commit.type = 'Features';
-      } else if (commit.type === 'fix') {
+      } else if (equalsIgnoreCase(commit.type, 'fix')) {
         commit.type = 'Bug Fixes';
-      } else if (commit.type === 'refactor') {
+      } else if (equalsIgnoreCase(commit.type, 'refactor')) {
         commit.type = 'Code Refactoring';
-      } else if (commit.type === 'chore') {
+      } else if (equalsIgnoreCase(commit.type, 'chore')) {
         commit.type = 'Chores';
-      } else if (commit.type === 'config') {
+      } else if (equalsIgnoreCase(commit.type, 'config')) {
         commit.type = 'Config';
-      } else if (commit.type === 'test') {
+      } else if (equalsIgnoreCase(commit.type, 'test')) {
         commit.type = 'Tests';
-      } else if (commit.type === 'docs') {
+      } else if (equalsIgnoreCase(commit.type, 'docs')) {
         commit.type = 'Documentation';
-      } else if (commit.type === 'no-release') {
+      } else if (equalsIgnoreCase(commit.type, 'no-release')) {
         return;
       }
       if (typeof commit.hash === 'string') {
@@ -61,3 +61,7 @@ module.exports = {
   ],
   branches: ["main", "master", "develop"]
 };
+
+function equalsIgnoreCase(a, b) {
+  return a.localeCompare(b, 'en', { sensitivity: 'base' })
+}
