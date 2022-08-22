@@ -28,6 +28,6 @@ jobs:
         if: success()
         env:
           CI: true
-          GITHUB_TOKEN: ${{ secrets.ACTIONS_REPO_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.ACTIONS_REPO_TOKEN_PUBLIC }}
           NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npx semantic-release
