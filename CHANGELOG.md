@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/hgdata/semantic-release-config/compare/v1.1.0...v1.1.1) (2022-08-22)
+
+
+### Bug Fixes
+
+* Ignoring case for commit types ([#6](https://github.com/hgdata/semantic-release-config/issues/6)) ([619be46](https://github.com/hgdata/semantic-release-config/commit/619be46498a84084b26e463683aab8fff2bac879))
+
 # [1.1.0](https://github.com/hgdata/semantic-release-config/compare/v1.0.12...v1.1.0) (2022-06-09)
 
 
