@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/hgdata/semantic-release-config/compare/v1.1.1...v1.1.2) (2022-08-23)
+
+
+### Bug Fixes
+
+* equalsIgnoreCase should return boolean ([#9](https://github.com/hgdata/semantic-release-config/issues/9)) ([3613337](https://github.com/hgdata/semantic-release-config/commit/36133371cdd22bd74ad70e2c0990394fcf2eab48))
+
 ## [1.1.1](https://github.com/hgdata/semantic-release-config/compare/v1.1.0...v1.1.1) (2022-08-22)
 
 
