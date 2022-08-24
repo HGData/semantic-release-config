@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/hgdata/semantic-release-config/compare/v1.1.3...v1.1.4) (2022-08-24)
+
+
+### Bug Fixes
+
+* version bump only ([#12](https://github.com/hgdata/semantic-release-config/issues/12)) ([bab9ecd](https://github.com/hgdata/semantic-release-config/commit/bab9ecd6e95e7716ae23fe2d69612055e24f2b6b))
+
 ## [1.1.3](https://github.com/hgdata/semantic-release-config/compare/v1.1.2...v1.1.3) (2022-08-24)
 
 
