@@ -63,5 +63,6 @@ module.exports = {
 };
 
 function equalsIgnoreCase(a, b) {
+  if (!a || !b) return false
   return a.localeCompare(b, 'en', { sensitivity: 'base' }) === 0
 }

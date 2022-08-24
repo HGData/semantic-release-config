@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/hgdata/semantic-release-config/compare/v1.1.2...v1.1.3) (2022-08-24)
+
+
+### Bug Fixes
+
+* handle `null` with ignoreCase function ([#10](https://github.com/hgdata/semantic-release-config/issues/10)) ([20fb7d4](https://github.com/hgdata/semantic-release-config/commit/20fb7d443ef990fe1b6ef66dbf233688ce2207a9))
+
 ## [1.1.2](https://github.com/hgdata/semantic-release-config/compare/v1.1.1...v1.1.2) (2022-08-23)
 
 
