@@ -3,6 +3,9 @@ const commitAnalyzerOptions = {
   releaseRules: [
     { type: 'breaking', release: 'major' },
     { type: 'comitão', release: 'major' },
+    { type: '☄️', release: 'major' },
+    { type: '👣', release: 'minor' },
+    { type: '🔥', release: 'patch' },
     { type: 'refactor', release: 'patch' },
     { type: 'config', release: 'patch' },
     { scope: 'chore', release: false },
@@ -21,9 +24,15 @@ const releaseNotesGeneratorOptions = {
         commit.type = 'Breaking';
       } else if (equalsIgnoreCase(commit.type, 'comitão')) {
         commit.type = 'Breaking';
+      }  else if (equalsIgnoreCase(commit.type, '☄️')) {
+        commit.type = 'Breaking'
       } else if (equalsIgnoreCase(commit.type, 'feat')) {
         commit.type = 'Features';
+      } else if (equalsIgnoreCase(commit.type, '👣')) {
+        commit.type = 'Features'
       } else if (equalsIgnoreCase(commit.type, 'fix')) {
+        commit.type = 'Bug Fixes';
+      } else if (equalsIgnoreCase(commit.type, '🔥')) {
         commit.type = 'Bug Fixes';
       } else if (equalsIgnoreCase(commit.type, 'refactor')) {
         commit.type = 'Code Refactoring';
