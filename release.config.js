@@ -5,6 +5,7 @@ const commitAnalyzerOptions = {
     { type: 'comitão', release: 'major' },
     { type: 'refactor', release: 'patch' },
     { type: 'config', release: 'patch' },
+    { type: 'deps', release: 'patch' },
     { scope: 'chore', release: false },
     { scope: 'no-release', release: false },
     { scope: 'test', release: false },
@@ -25,6 +26,8 @@ const releaseNotesGeneratorOptions = {
         commit.type = 'Features';
       } else if (equalsIgnoreCase(commit.type, 'fix')) {
         commit.type = 'Bug Fixes';
+      } else if (equalsIgnoreCase(commit.type, 'deps')) {
+        commit.type = 'Dependency Updates';
       } else if (equalsIgnoreCase(commit.type, 'refactor')) {
         commit.type = 'Code Refactoring';
       } else if (equalsIgnoreCase(commit.type, 'chore')) {
