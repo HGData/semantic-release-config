@@ -1,3 +1,11 @@
+## [1.1.5](https://github.com/hgdata/semantic-release-config/compare/v1.1.4...v1.1.5) (2023-05-02)
+
+
+### Bug Fixes
+
+* add deps ([#15](https://github.com/hgdata/semantic-release-config/issues/15)) ([b6ec5a7](https://github.com/hgdata/semantic-release-config/commit/b6ec5a791f77143c33e0b9af9a2c0871533704d6))
+* target hgdata hosted actions ([#16](https://github.com/hgdata/semantic-release-config/issues/16)) ([35b351c](https://github.com/hgdata/semantic-release-config/commit/35b351c6cfbf1140a8a6fb5584a7f6d2cad1156a))
+
 ## [1.1.4](https://github.com/hgdata/semantic-release-config/compare/v1.1.3...v1.1.4) (2022-08-24)
 
 
